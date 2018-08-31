@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/About_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/align"
+            android:layout_marginStart="20dp"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_back_button" />
+
+        <TextView
+            android:id="@+id/align"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="2dp"
+            android:text="Contact Us"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Thank you for using our App .
+ For any queries regarding functioning of app and systematic procedure of app please contact  through e-mail to"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="swachnation@gmail.com."
+        android:textColor="#1155cc"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email2"
+        android:layout_centerHorizontal="true"
+        android:text="We're happy to serve better to empower your active citizenship."
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+</RelativeLayout>

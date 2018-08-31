@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Swachh Nation</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_user_prof">UserProf</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="gps_not_found_title">Oops! Location not enabled.</string>
+    <string name="gps_not_found_message">Enable?</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+</resources>

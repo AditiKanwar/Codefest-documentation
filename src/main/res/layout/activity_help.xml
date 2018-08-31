@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/About_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp">
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/align"
+            android:layout_marginStart="20dp"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_back_button" android:contentDescription="TODO"/>
+
+        <TextView
+            android:id="@+id/align"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="2dp"
+            android:text="Help"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="We see you seek guidance. Let us help you with a brief walk through. What this application
+does is simply take your complaints directly to the concerned personnels.
+We hope working is  clear to you. If not, why not talk to us? Drop a Hi, at"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="13dp"
+        android:text="swachnation@gmail.com"
+        android:textColor="#1155cc"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+</RelativeLayout>
